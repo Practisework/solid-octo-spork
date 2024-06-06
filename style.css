@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000c1c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.mainBox {
+  width: 80%;
+  height: 65%;
+  background-image: linear-gradient(#2cd8d5, #6f86d6 90%);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px #00000094;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  width: 70%;
+  height: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  /* background-color: #ffffff; */
+  flex-direction: column;
+}
+.button {
+  background: #000c1c;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px #00000094;
+  width: 90%;
+  height: 45px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.chart {
+  height: 70%;
+  width: 90%;
+  background-color: #000c1c;
+}
+button {
+  height: 13%;
+  width: 80%;
+  background-image: linear-gradient(90deg, #2cd8d5, #6f86d6 90%);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px #00000094;
+  border: none;
+  cursor: pointer;
+}
